@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sruthy K, Computer Science and Engineering student interested in AI and software development.">
+    <title>Sruthy K | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">Sruthy<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="theme-toggle"
+                aria-label="Switch colour theme">☀</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Sruthy K</h1>
+
+                <h2>Computer Science & Engineering Student</h2>
+
+                <p class="hero-description">
+                    Exploring the world of technology through programming,
+                    artificial intelligence and web development.
+                    Always curious, always learning.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work
+                    </a>
+
+                    <a href="assets/Sruthy_K_Resume.pdf"
+                       class="btn btn-outline"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Resume
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Sruthy2004"
+                       target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/in/sruthy-k-b73935367/"
+                       target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-card">
+                    <p>
+                        I am an aspiring Computer Science and Engineering
+                        student currently pursuing my B.Tech at Rajadhani
+                        Institute of Science and Technology, Palakkad.
+                    </p>
+
+                    <p>
+                        I enjoy exploring technology, learning new
+                        programming concepts and building projects that
+                        help me develop practical skills.
+                    </p>
+
+                    <p>
+                        My interests include artificial intelligence,
+                        machine learning and full-stack web development.
+                        I believe in continuous learning and improving
+                        through hands-on experience.
+                    </p>
+
+                    <div class="about-details">
+                        <div>
+                            <span>Degree</span>
+                            <strong>B.Tech CSE</strong>
+                        </div>
+
+                        <div>
+                            <span>Institution</span>
+                            <strong>Rajadhani Institute of Science and Technology</strong>
+                        </div>
+
+                        <div>
+                            <span>Expected Graduation</span>
+                            <strong>2027</strong>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>Palakkad, Kerala, India</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2 class="section-title">My Skills</h2>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <h3>Programming</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>C++</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Web Technologies</h3>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <p class="skill-note">JavaScript — currently learning</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>AI & Machine Learning</h3>
+                        <div class="skill-tags">
+                            <span>Machine Learning Fundamentals</span>
+                            <span>OpenCV</span>
+                            <span>YOLOv8</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+                <h2 class="section-title">My Projects</h2>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <h3>FabricGuard</h3>
+
+                        <p>
+                            A fabric defect detection project using YOLOv8.
+                            It explores computer vision techniques to
+                            identify and locate defects in fabric images.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>YOLOv8</span>
+                            <span>Computer Vision</span>
+                        </div>
+
+                        <a href="https://github.com/Sruthy2004"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub Profile ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <h3>Deepfake Detection Using AI</h3>
+
+                        <p>
+                            A mini project that explores identifying
+                            manipulated images and videos using machine
+                            learning and computer vision. OpenCV is used
+                            for image and video processing.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Machine Learning</span>
+                        </div>
+
+                        <a href="https://github.com/Sruthy2004"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub Profile ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <h3>Phishing Detection System</h3>
+
+                        <p>
+                            A Python-based project that uses machine
+                            learning to classify URLs as legitimate
+                            or potentially phishing-related. Model
+                            evaluation includes precision, recall
+                            and accuracy.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                        </div>
+
+                        <a href="https://github.com/Sruthy2004"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub Profile ↗
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+                <p class="eyebrow">MY JOURNEY</p>
+                <h2 class="section-title">Internship Experience</h2>
+
+                <div class="timeline">
+
+                    <article class="timeline-item">
+                        <span class="timeline-date">June 2026</span>
+                        <h3>Cyber Security & Ethical Hacking Intern</h3>
+                        <h4>Retechnox Technologies LLP</h4>
+                        <p>
+                            Completed an internship and workshop program,
+                            gaining foundational exposure to cybersecurity
+                            and ethical hacking concepts.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-date">March 2026 – May 2026</span>
+                        <h3>Robotics Intern</h3>
+                        <h4>Alpha Innovation</h4>
+                        <p>
+                            Explored robotics concepts and practical
+                            applications through training and demonstrations.
+                            Contributed to a team project during the internship.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-date">August 2025</span>
+                        <h3>Artificial Intelligence Intern</h3>
+                        <h4>Qnayds LLP</h4>
+                        <p>
+                            Completed an internship gaining exposure
+                            to artificial intelligence concepts
+                            and applications.
+                        </p>
+                    </article>
+
+                </div>
+
+                <h2 class="subsection-title">Education</h2>
+
+                <div class="education-card">
+                    <span class="timeline-date">2023 – 2027 (Expected)</span>
+                    <h3>B.Tech – Computer Science & Engineering</h3>
+                    <p>Rajadhani Institute of Science and Technology, Palakkad</p>
+                    <p>Minor: Civil Engineering</p>
+                </div>
+
+                <div class="education-card">
+                    <span class="timeline-date">2022</span>
+                    <h3>Higher Secondary – Biology Science</h3>
+                    <p>GHSS Mankara</p>
+                </div>
+
+                <div class="education-card">
+                    <span class="timeline-date">2020</span>
+                    <h3>Secondary Education</h3>
+                    <p>GVHSS Pathiripala</p>
+                </div>
+
+                <h2 class="subsection-title">Certifications & Workshops</h2>
+
+                <ul class="certification-list">
+                    <li>Cyber Security & Ethical Hacking Internship and Workshop – Retechnox Technologies LLP, June 2026</li>
+                    <li>Robotics Internship – Alpha Innovation, March–May 2026</li>
+                    <li>AI-Cyber Security Workshop – Tech Maghi × Elan & nVision, IIT Hyderabad, January 2026</li>
+                    <li>Artificial Intelligence Internship – Qnayds LLP, August 2025</li>
+                    <li>Bug Bounty Webinar – Offenso Hackers Academy, August 2025</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <div class="container contact-content">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <p>
+                    Have an opportunity, project idea or something
+                    interesting to discuss? Feel free to reach out.
+                </p>
+
+                <a href="mailto:Ksree6698@gmail.com"
+                   class="btn btn-primary">
+                    Email Me
+                </a>
+
+                <div class="contact-links">
+                    <a href="mailto:Ksree6698@gmail.com">
+                        Ksree6698@gmail.com
+                    </a>
+
+                    <a href="https://github.com/Sruthy2004"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sruthy-k-b73935367/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </div>
+
+                <a href="assets/Sruthy_K_Resume.pdf" download
+                   class="resume-download">
+                    Download My Resume ↓
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Sruthy K. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
